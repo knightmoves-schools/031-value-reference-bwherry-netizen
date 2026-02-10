@@ -5,10 +5,10 @@ public class Account {
     public static int[] CurrentLedger = {10, 20, 30, 40, 50};
 }
 
-public int class NewTaxRate = OriginalTaxRate;
-public int class CopyLedger = CurrentLedger;
+public int NewTaxRate = OriginalTaxRate;
+public int CopyLedger = CurrentLedger;
 
-public int UpdateLedger (int correction) 
+public int[] UpdateLedger (int correction) 
 {
     CurrentLedger[0] = 15;
 }
@@ -20,6 +20,7 @@ public int AdjustTaxRate (int taxRate)
 
     return NewTaxRate;
 }
+
 
 
 
