@@ -7,7 +7,7 @@ public class Account {
     public int NewTaxRate = OriginalTaxRate;
     public int[] CopyLedger = CurrentLedger;
 
-public int UpdateLedger (int correction) 
+public int UpdateLedger (int[] correction) 
 {
     CurrentLedger[0] = 15;
 
@@ -22,6 +22,7 @@ public int AdjustTaxRate (int taxRate)
     return NewTaxRate;
 }
 }
+
 
 
 
