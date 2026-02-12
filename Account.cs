@@ -9,7 +9,7 @@ public class Account {
 
     public int[] UpdateLedger (int Correction) 
     {
-        CurrentLedger[0] = 15;
+        CurrentLedger[0] = Correction;
 
         return CurrentLedger;
     }
@@ -21,3 +21,4 @@ public class Account {
         return NewTaxRate;
     }
 }
+
